@@ -2,7 +2,7 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "start": "json-graphql-server db.js"
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "json-graphql-server": "^2.2.3",
