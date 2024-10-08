@@ -1,1 +1,1 @@
-web: npm install -g npm@10.9.0; npm install; npm start
+web: npm install -g json-server@0.17.4; npm start
