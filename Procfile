@@ -1,1 +1,1 @@
-web: npm install; node server.js
+web: npm install -g npm@10.9.0; npm install; npm start

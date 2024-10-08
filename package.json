@@ -1,8 +1,9 @@
 {
   "name": "node-starter",
   "version": "0.0.0",
+  "type": "commonjs",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+    "start": "json-server --watch db.json --port ${PORT:-3000} --host 0.0.0.0"
   },
   "dependencies": {
     "json-graphql-server": "^2.2.3",
