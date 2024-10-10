@@ -1,12 +1,11 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
-  "type": "commonjs",
   "scripts": {
-    "start": "json-server --watch db.json --port ${PORT:-3000}"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-graphql-server": "^2.2.3",
-    "lowdb": "^7.0.1"
+    "json-server": "1.0.0-beta.3"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
