@@ -1,1 +1,1 @@
-web: npm start
+worker: npm install; npx node dist/bot.js
