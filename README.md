@@ -1,3 +1,3 @@
-# dose.tips
+~~dose.tips~~  www.drug-do.se 
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/alevkov/dose.tips)
+
